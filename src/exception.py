@@ -1,7 +1,10 @@
 import sys
+import os
 
-import logging
+# Add the project root directory to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from src.logger import logging
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
     file_name=exc_tb.tb_frame.f_code.co_filename
@@ -20,9 +23,11 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-# if __name__ == '__main__':
-#     try:
-#         a = 1/0
-#     except Exception as e:
-#         logging.info("Error division by zero")
-#         raise CustomException(e,sys)
+if __name__ == '__main__':
+    try:
+        a = 1/0
+    except Exception as e:
+        logging.info("Error division by zero")
+        raise CustomException(e,sys)
+
+
