@@ -1,0 +1,5 @@
+[ 2025-01-11 22:44:20,618 ] 30 root - INFO - entered the data ingestion method
+[ 2025-01-11 22:44:20,738 ] 33 root - INFO - Read the data as dtaframe
+[ 2025-01-11 22:44:20,786 ] 39 root - INFO - Raw data saved successfully
+[ 2025-01-11 22:44:20,868 ] 45 root - INFO - data split successfully
+[ 2025-01-11 22:44:20,886 ] 51 root - INFO - Train and test data saved successfully
