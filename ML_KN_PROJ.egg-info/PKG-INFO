@@ -1,8 +1,11 @@
-Metadata-Version: 2.1
-Name: ML-KN-PROJ
+Metadata-Version: 2.2
+Name: ML_KN_PROJ
 Version: 0.0.1
 Author: kartheek
 Author-email: kartheekakkabathula@gmail.com
 Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: seaborn
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

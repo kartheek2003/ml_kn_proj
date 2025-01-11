@@ -46,7 +46,7 @@ class DataIngestion:
 
             train_set.to_csv(self.config.train_data_path,index=False,header = True)
 
-            test_set.to_csv(self.config.test_data_path,index=False,header = True)
+            test_set.to_csv(self.config.test_data_path,indent=False,header = True)
 
             logging.info('Train and test data saved successfully')
 
