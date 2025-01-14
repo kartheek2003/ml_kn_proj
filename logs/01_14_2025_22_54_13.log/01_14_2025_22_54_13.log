@@ -1,0 +1,12 @@
+[ 2025-01-14 22:54:15,054 ] 38 root - INFO - entered the data ingestion method
+[ 2025-01-14 22:54:15,056 ] 41 root - INFO - Read the data as dtaframe
+[ 2025-01-14 22:54:15,056 ] 47 root - INFO - Raw data saved successfully
+[ 2025-01-14 22:54:15,056 ] 53 root - INFO - data split successfully
+[ 2025-01-14 22:54:15,069 ] 59 root - INFO - Train and test data saved successfully
+[ 2025-01-14 22:54:15,089 ] 81 root - INFO - read the train and test files
+[ 2025-01-14 22:54:15,089 ] 58 root - INFO - numerical columns : ['writing_score', 'reading_score']
+[ 2025-01-14 22:54:15,089 ] 59 root - INFO - categorical columns : ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2025-01-14 22:54:15,089 ] 95 root - INFO - applying preprocessing object on training df and testing df
+[ 2025-01-14 22:54:15,108 ] 107 root - INFO - training and testing arrays prepared
+[ 2025-01-14 22:54:15,108 ] 114 root - INFO - saved preprocessing object
+[ 2025-01-14 22:54:15,108 ] 33 root - INFO - split training and test input data 
