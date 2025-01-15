@@ -17,5 +17,5 @@ logging.basicConfig(
 )
 
 
-if __name__ == "__main__":
-    logging.info("Starting")
+# if __name__ == "__main__":
+#     logging.info("Starting")
